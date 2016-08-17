@@ -2,7 +2,7 @@ var through = require("through2");
 var gutil = require("gulp-util");
 
 function replaceContent(content, opts) {
-	return opts.match ? content.content.replace(opts.match, '') : content;
+	return opts.match ? content.replace(opts.match, '') : content;
 }
 
 module.exports = function(options) {
