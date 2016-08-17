@@ -1,0 +1,21 @@
+{
+  "name": "gulp-remove-content",
+  "version": "1.0.0",
+  "description": "remove file content",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp-util": "*",
+    "through2": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remove"
+  ],
+  "author": "helondeng",
+  "license": "ISC"
+}
