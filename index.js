@@ -1,6 +1,7 @@
 var through = require("through2");
 var gutil = require("gulp-util");
 
+// remove certain content from file.
 function replaceContent(content, opts) {
 	return opts.match ? content.replace(opts.match, '') : content;
 }
